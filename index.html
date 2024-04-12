@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tinting Shop</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+    /* Custom styles for jumbotron */
+    .jumbotron {
+      background-size: cover;
+      color: white;
+      text-align: center;
+      position: relative;
+      background-color: rgba(255, 0, 0, 0.363);
+    }
+    /* Calendly button style */
+    .calendly-btn {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    /* Style for Calendly button on mobile */
+    @media (max-width: 576px) {
+      .calendly-btn {
+        bottom: 20px; /* Adjusted the position */
+      }
+    }
+    /* Calendly button style */
+    .btn-primary {
+      background-color: #ffdd0088; /* Change to your desired color */
+      border-color: #ffdd006b; /* Change to your desired color */
+      font-size: 25px;
+    }
+    /* White text for card body */
+    .card-body {
+      color: white;
+      text-align: center;
+    }
+    /* Style for white line divider */
+    .section-divider {
+      border-top: 1px solid white;
+      max-width: 75%;      
+    }
+    /* Reduce gap between sections */
+    #pricing, #image-section {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <h1 class="display-4">Juju Built 3M Tint</h1>
+  <p class="lead">Transform your vehicle with precision window tinting services from our shop.<br>
+    Our expert technicians ensure top-quality results, enhancing both style and functionality</p><br>
+  <!-- Calendly button -->
+  <div class="calendly-btn">
+    <a href="https://calendly.com/your-calendly-link" target="_blank" class="btn btn-primary">Book Now</a>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<section id="pricing" class="py-4">
+  <div class="container">
+    <h2 class="text-center mb-4">Pricing</h2>
+    <div class="row">
+      <!-- Tier 1 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/ceramic.jpeg" class="card-img-top" alt="Tier 1 Tint">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Ceramic Window Tint</h5>
+            <p class="card-text">$1000</p>
+            <p>Ceramic window tint is highly regarded for its heat rejection properties while maintaining clarity. 
+                It consists of ceramic particles that block infrared rays without interfering with radio, GPS, or cellular signals. 
+                Ceramic tints also resist fading and offer excellent UV protection.</p>
+        </div>
+      </div>
+      <!-- Tier 2 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/carbon.jpeg" class="card-img-top" alt="Tier 2 Tint">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Carbon Window Tint</h5>
+            <p class="card-text">$2000</p>
+            <p>Carbon window tint is known for its sleek appearance and durability. 
+                It contains carbon particles that effectively block heat and UV rays, helping to keep the interior of your vehicle cooler and protecting it from sun damage. 
+                Carbon tints provide good visibility and reduce glare without interfering with electronic signals.</p>
+        </div>
+      </div>
+      <!-- Tier 3 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img src="images/crystalline.png" class="card-img-top" alt="Tier 3 Tint">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Crystalline Window Tint</h5>
+            <p class="card-text">$3000</p>
+            <p>Offers exceptional clarity, blocking up to 97% of infrared heat-producing wavelengths while maintaining maximum visibility day and night. 
+                With superior UV protection, it blocks up to 99.9% of harmful UV radiation, safeguarding both the vehicle's interior and occupants from sun damage. 
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="image-section" class="py-4">
+    <div class="container text-center">
+      <img src="images/percent.jpeg" alt="Your Image" class="img-fluid">
+    </div>
+</section>
+
+<hr class="section-divider">
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Us</h2>
+    <p class="text-center">This tint shop specializes in providing high-quality window tinting services to customers. Our team of experienced professionals is dedicated to ensuring that every customer receives the best tinting solution for their needs. With a focus on customer satisfaction and attention to detail, we strive to deliver outstanding results with every tinting job. Whether you're looking to enhance the appearance of your vehicle, improve privacy, or reduce heat and glare, we have the expertise and products to meet your requirements. Contact us today to learn more about our services and schedule your appointment.</p>
+  </div>
+</section>
+
+<hr class="section-divider">
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <!-- Add your contact form or contact information here -->
+    <p class="text-center">Phone: (909)999-9999<br><br>Email: 3mjuj@juju.com<br><br>Mountain Avenue Business Park<br>1133 W 9th St unit 1135<br> Upland, CA 91786</p>
+
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
